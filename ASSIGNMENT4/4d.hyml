@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>download</title>
+</head>
+<body>
+    <style>
+     .get_started{
+        border: none;
+        color: rgb(238, 234, 234);
+        background-color: rgb(118, 9, 227);
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 4px;
+        cursor: pointer;
+     }
+     .download{
+        color: rgb(18, 16, 16);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color: white;
+        margin-left: 5px;
+        cursor: pointer;
+        border-radius: 4px;
+        font-weight: bold;
+     }
+     .get_started:hover{
+        background-color: rgb(129, 10, 227);
+     }
+     .get_started:active{
+        background-color: rgb(129, 10, 227);
+     }
+     .download:hover{
+        border-color: rgb(138, 9, 227);
+     }
+     .download:active{
+        border-color: rgb(138, 9, 227);
+     }
+     
+    </style>
+
+    <button class="get_started">Get started</button>
+    <button class="download">Download</button>
+</body>
+</html>

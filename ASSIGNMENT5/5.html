@@ -6,6 +6,25 @@
     <title>Card Hover Effect</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<style>
+    /* Card styling */
+.card {
+    padding: 20px;                       /* Padding inside the card */
+    border: 1px solid gray;              /* Gray border */
+    width: 300px;                        /* Set a width for the card */
+    background-color: white;             /* Card background color */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: box-shadow 0.3s ease;    /* Smooth transition for hover effect */
+    margin: 50px auto;                   /* Center the card with some margin */
+    border-radius: 8px;                  /* Rounded corners for a modern look */
+}
+
+/* Hover effect */
+.card:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+</style>
 <body>
     <div class="card">
         <h3>Hover Over Me</h3>
