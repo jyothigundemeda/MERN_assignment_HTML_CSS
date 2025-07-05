@@ -1,0 +1,10 @@
+<! -- HTML Element consists of a start tag, content, and an end tag, define the element's structure and functionality.
+ Elements are the basic building blocks of a webpage and can represent text, links, images, or headings.>
+
+ <! --Syntax:
+
+<tagname >Your Contents... </tagname>  >
+
+<! -- Case Sensitivity:
+
+HTML tags are not case-sensitive. For example, <B> and <b> both represent bold text.  >
