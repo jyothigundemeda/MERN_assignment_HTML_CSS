@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+.main{
+    text-align: center;
+   
+}
+.gfg{
+    font-size: 150px;
+    font-weight: bold;
+    color: green;
+    
+}
+#greeks{
+    font-size: 120px;
+    font-weight: bold;
+}
